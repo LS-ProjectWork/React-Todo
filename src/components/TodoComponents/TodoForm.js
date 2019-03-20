@@ -1,7 +1,7 @@
 import React from 'react';
 import { prependOnceListener } from 'cluster';
 
-const TodoForm = () => {
+const TodoForm = props => {
     return (
         <form>
             <input value={props.task} />
